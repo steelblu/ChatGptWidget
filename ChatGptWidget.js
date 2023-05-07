@@ -93,7 +93,7 @@
             "Authorization": "Bearer " + apiKey
           },
           body: JSON.stringify({
-            "model": "text-davinci-002",
+            "model": "text-davinci-003",
             "prompt": prompt,
             "max_tokens": parseInt(max_tokens),
             "n": 1,
